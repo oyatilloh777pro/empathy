@@ -1,0 +1,165 @@
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+header ul a {
+    text-decoration: none;
+    color: #1E1928;
+}
+
+header {
+    background-color: #EDE6DD;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intro {
+    background-color: #EDE6DD;
+}
+
+.intro .left h1 {
+    margin-top: 0;
+    font-size: 52px;   
+}
+
+.intro .left p {
+    line-height: 30px;
+}
+
+.intro .container {
+    display: flex;
+}
+
+.intro .left input {
+    border: none;
+    padding: 15px 25px 15px 25px;
+    width: 500px;
+    border-radius: 30px;
+}
+
+.intro .left button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+    position: relative;
+    left: 360px;
+    bottom: 41px;
+}
+
+.relief {
+    background-image: url('./images/sunset.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.relief p {
+    width: 500px;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+.relief a {
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+
+.works {
+    background-color: #FFD394;
+}
+
+.works h2 {
+    margin-top: 0;
+    font-size: 42px;
+}
+
+.works .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.works .right .order {
+    background-color: black;
+    color: white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.works .work {
+    display: flex;
+    gap: 30px;
+}
+
+.works .right {
+    width: 600px;
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 50px;
+}
+
+footer ul a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+footer button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 30px;
+}
+
+footer .right div {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+footer .right  {
+    display: flex;
+    gap: 20px;
+}
